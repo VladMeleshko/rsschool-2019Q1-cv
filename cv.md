@@ -54,12 +54,12 @@
 	margin: 0 auto;
 }
 
-header{
+header {
 	background: green;
 }
 
-.content, aside{
-	height: 400px;h
+.content, aside {
+	height: 400px;
 }
 
 .content {
