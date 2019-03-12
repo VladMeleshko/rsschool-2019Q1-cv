@@ -1,0 +1,190 @@
+body {
+    position: relative;
+    width: 1024px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+header {
+    height: 230px;
+    background: #ebebeb;
+}
+
+h1 {
+    position: absolute;
+    left: 278px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-family: "Helvetica", "Arial", sans-serif;
+    text-align: left;
+}
+
+.photo {
+    position: absolute;
+    right: 0;
+    width: 200px;
+    height: 220px;
+    border: 5px solid #adadad;
+}
+
+.menu {
+    position: absolute;
+    top: 120px;
+    width: 470px;
+    height: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 0;
+}
+
+.menu .point {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    font-family: "Helvetica", "Arial", sans-serif;
+}
+
+.menu a {
+    color: #86d19c;
+    text-decoration: none;
+}
+
+.menu a:active {
+	color: #86d19c;
+}
+
+.menu a:visited {
+	color: #86d19c;
+}
+
+.menu a:hover {
+	color: #71b4f0;
+}
+
+/*main*/
+
+main {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.subtitle {
+    font-size: 30px;
+    font-family: "Helvetica", "Arial", sans-serif;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    font-family: "Helvetica", "Arial", sans-serif;
+}
+
+.knowledge-table {
+    height: 200px;
+    margin: 0 auto;
+    font-family: "Helvetica", "Arial", sans-serif;
+}
+
+.knowledge-table, 
+th, 
+td {
+    text-align: center;
+    border: 1px solid #000000;
+}
+
+.examples {
+    height: 400px;
+    margin: 0 auto;
+    font-size: 15px;
+    font-family: "Helvetica", "Arial", sans-serif;
+    color: #ffffff;
+    background: #1e1e1e;
+    overflow: scroll;
+}
+
+.tag {
+    color: #569cd6;
+}
+
+.tag-attribute {
+    color: #8cdcfe;
+}
+
+.attribute-value {
+    color: #ce9178;
+}
+
+.tag-class {
+    color: #d7ba7d;
+}
+
+.experience-list {
+    font-size: 18px;
+    font-family: "Helvetica", "Arial", sans-serif;
+}
+
+.git-link, 
+.experience-list a {
+    color: #4e48f7;
+    text-decoration: none;
+}
+
+.git-link, 
+.experience-list a:visited {
+    color: #4e48f7;
+}
+
+.git-link, 
+.experience-list a:active {
+    color: #4e48f7;
+}
+
+.experience-list a:hover {
+    color: #3ffc05;
+}
+
+.git-link:hover {
+    color: #3ffc05;
+}
+
+/*Footer*/
+
+footer {
+    height: 83px;
+    background: #ebebeb; 
+}
+
+.contacts p {
+    position: absolute;
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-family: "Helvetica", "Arial", sans-serif; 
+}
+
+.contacts .contact-info {
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Helvetica", "Arial", sans-serif; 
+}
+
+.mail {
+    color: #4e48f7;
+    text-decoration: none;
+}
+
+.mail:visited {
+    color: #4e48f7;
+}
+
+.mail:active {
+    color: #4e48f7;
+}
+
+.mail:hover {
+    color: #86d19c;
+}
