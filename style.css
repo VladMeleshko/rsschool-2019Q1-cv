@@ -103,6 +103,22 @@ td {
     overflow: scroll;
 }
 
+.tag {
+    color: #569cd6;
+}
+
+.tag-attribute {
+    color: #8cdcfe;
+}
+
+.attribute-value {
+    color: #ce9178;
+}
+
+.tag-class {
+    color: #d7ba7d;
+}
+
 .experience-list {
     font-size: 18px;
     font-family: "Helvetica", "Arial", sans-serif;
